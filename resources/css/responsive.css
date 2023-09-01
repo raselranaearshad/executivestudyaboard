@@ -1,0 +1,48 @@
+/* Md Screen */
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .container{width: 90%;}
+    .header_btn{display: none;}
+    .header_left h1 {font-size: 42px;}
+    .header_left p {font-size: 18px;}
+    .single_news:nth-child(3) {margin-top: 30px;}
+    .services_items2 .single_service_item {margin: 50px 15px 0;}
+    .single_service_item {flex-basis: 31%;}
+    .top_event h3 {font-size: 18px;}
+    .top_event img {height: 65px;}
+    .top_event h3 {padding: 0 10px;}
+    .single_event a {margin-bottom: 10px;}
+    .client_review p {font-size: 16px;}
+    .action_item h3 {text-align: center; flex-basis: 100%;}
+    .action_btn {margin-top: 20px;margin-left: 14%;}
+    .single_footer {flex-basis: 22%;}
+    .single_footer p {font-size: 14px;}
+}
+/* sm Screen */
+@media only screen and (min-width: 340px) and (max-width: 767px){
+    .container{width: 90%;}
+    h2 {font-size: 32px;margin-bottom: 30px;}
+    .little_description {width: 100%;}
+    .header_btn{display: none;}
+    .header_left {flex-basis: 100%;}
+    .header_left h1 {font-size: 44px;}
+    .header_right {flex-basis: auto;}
+    .hero_person {opacity: 0.6;}
+    .single_service_item {flex-basis: 100%;}
+    .services_items2 .single_service_item {margin: 0;flex-basis: 100%;margin: 15px 0;}
+    .inner_news .little_description {width: 100%;}
+    .single_news {margin-bottom: 20px;}
+    #event_section .little_description {width: 100%;}
+    .inner_featured .little_description {width: 100%;}
+    .top_event h3 {font-size: 18px;}
+    .top_event img {height: 65px;}
+    .top_event h3 {padding: 0 10px;}
+    .single_event a {margin-bottom: 10px;}
+    .client_review p {font-size: 16px;}
+    .action_item h3 {text-align: center; flex-basis: 100%; font-size: 24px;}
+    .action_btn {margin-top: 20px;margin-left: 25%;}
+    .single_footer {flex-basis: 22%;}
+    .single_footer p {font-size: 14px; margin-bottom: 0;}
+    .single_footer {flex-basis: 100%;text-align: center; margin-bottom: 50px;}
+    .inner_footer span {text-align: center;padding-top: 50px;display: inline-block;}
+    .single_footer:last-child{margin-bottom: 0;}
+}
